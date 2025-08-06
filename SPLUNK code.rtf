@@ -1,0 +1,661 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue254;\red0\green0\blue0;\red144\green1\blue18;
+\red9\green60\blue148;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c99608;\cssrgb\c0\c0\c0;\cssrgb\c63922\c8235\c8235;
+\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \{\cb1 \
+\cb2     \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2         \cf4 \strokec4 "ds_11XBERGK"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "latest"\cf0 \strokec3 : \cf5 \strokec5 "now"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Correlation Between Sales Revenue and Profit Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_YSDXUh3Q"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" \\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "latest"\cf0 \strokec3 : \cf5 \strokec5 "now"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_SCGEW4PQ"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN (West,Northeast)\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "latest"\cf0 \strokec3 : \cf5 \strokec5 "now"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_eLMhQHNf"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_m1uZlVoX"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats avg(Operating_Margin) as \\"Average Margin\\"\\n| eval \\"Average Margin\\" = round('Average Margin'*100, 2)"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Average Margin in Perc Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_b6ZPwACT"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Total_Sales) as Sales sum(Operating_Profit) as Profit by Invoice_Date"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Trend of Sales and Profit by Invoice Date"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_VJgjRpLo"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| stats sum(Total_Sales) as Sales sum(Operating_Profit) as Profit by Invoice_Date"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Trend of sales and profit by invoice date search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_xGiqQCcq"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| stats sum(Total_Sales) as Sales sum(Operating_Profit) as Profit by Invoice_Date"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Line chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_A4oEZoBj"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Total_Sales) as Total_Sales by Sales_Method"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Method Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_DygOkkIr"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Total_Sales) as Total_Sales by Retailer"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Retailer Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_QHwuqNPI"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Total_Sales) as Total_Sales by Product"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Product Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_2gMTjG3a"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| stats sum(Total_Sales) by Sales_Method"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Bar chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_WdbEdBkd"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" \\n| stats sum(Total_Sales) by Retailer"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Column chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_lxFTN1K7"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_AxERDP7o"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_j387wiPE"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\"\\n| table Total_Sales, Operating_Profit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Scatter chart search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_wFmPsCc6"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" \\n| stats avg(Operating_Margin) as average_margin \\n| eval average_margin_inperc = average_margin * 100"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Table search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_I9i0sAgn"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n|stats sum(Units_Sold)"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Units Sold Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_0TUPsiC0"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Operating_Profit)"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Operating Profit Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_92ZGQ26d"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats sum(Total_Sales)"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Total Revenue Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_n9eNAaCU"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\" Region IN ($region_token$)\\n| stats count"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Number of Sales Events Search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_7YtSMakl"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.search"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "source=\\"AdidasUSSales_a1_kit102.csv\\" host=\\"657378\\" sourcetype=\\"csv\\""\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "0"\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Events 1 search"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "ds_Yl2XRfNY"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "ds.chain"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "query"\cf0 \strokec3 : \cf5 \strokec5 "| fieldsummary maxvals=10"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "extend"\cf0 \strokec3 : \cf5 \strokec5 "ds_7YtSMakl"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Events 2 search"\cf0 \cb1 \strokec3 \
+\cb2         \}\cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf4 \strokec4 "visualizations"\cf0 \strokec3 : \{\cb1 \
+\cb2         \cf4 \strokec4 "viz_1fUvT1GW"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.singlevalueradial"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_m1uZlVoX"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "numberPrecision"\cf0 \strokec3 : \cf6 \strokec6 2\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "majorColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Average Margin (%)"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_6vdcgCqs"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.line"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "yAxisAbbreviation"\cf0 \strokec3 : \cf5 \strokec5 "auto"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "y2AxisAbbreviation"\cf0 \strokec3 : \cf5 \strokec5 "auto"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "showRoundedY2AxisLabels"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "legendTruncation"\cf0 \strokec3 : \cf5 \strokec5 "ellipsisMiddle"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "showY2MajorGridLines"\cf0 \strokec3 : \cf5 \strokec5 true\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "xAxisLabelRotation"\cf0 \strokec3 : \cf6 \strokec6 0\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "yAxisMajorTickInterval"\cf0 \strokec3 : \cf6 \strokec6 3000000\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "xAxisTitleVisibility"\cf0 \strokec3 : \cf5 \strokec5 "show"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "yAxisTitleVisibility"\cf0 \strokec3 : \cf5 \strokec5 "show"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "y2AxisTitleVisibility"\cf0 \strokec3 : \cf5 \strokec5 "show"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "yAxisMax"\cf0 \strokec3 : \cf6 \strokec6 13000000\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "yAxisScale"\cf0 \strokec3 : \cf5 \strokec5 "linear"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "showOverlayY2Axis"\cf0 \strokec3 : \cf6 \strokec6 0\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "y2AxisScale"\cf0 \strokec3 : \cf5 \strokec5 "inherit"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "nullValueDisplay"\cf0 \strokec3 : \cf5 \strokec5 "gaps"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "dataValuesDisplay"\cf0 \strokec3 : \cf5 \strokec5 "off"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "showSplitSeries"\cf0 \strokec3 : \cf6 \strokec6 0\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "showIndependentYRanges"\cf0 \strokec3 : \cf6 \strokec6 0\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "legendMode"\cf0 \strokec3 : \cf5 \strokec5 "standard"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "legendDisplay"\cf0 \strokec3 : \cf5 \strokec5 "right"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "lineWidth"\cf0 \strokec3 : \cf6 \strokec6 2\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_b6ZPwACT"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Trend of Sales and Profit by Invoice Date"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_wX6xgoAx"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.pie"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_A4oEZoBj"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Method"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "context"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_RPiHUBZ1"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.pie"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_DygOkkIr"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Retailer"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "context"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_WtHIMJ0i"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.column"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_QHwuqNPI"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Sales by Product"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "context"\cf0 \strokec3 : \{\},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_Iy0gRNrO"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.singlevalue"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_I9i0sAgn"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Units Sold"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "majorColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_fTWlcylv"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.singlevalue"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_0TUPsiC0"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Operating Profit"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "majorColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_rXx312X7"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.singlevalue"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "majorColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_92ZGQ26d"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Total Revenue Overall"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_sQU7AIq2"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.singlevalue"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_n9eNAaCU"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "showProgressBar"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "showLastUpdated"\cf0 \strokec3 : \cf5 \strokec5 false\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "majorColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Number of Sales Events"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_OMVVGbJg"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.rectangle"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "fillColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "strokeColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_hZh6dNWV"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.markdown"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "markdown"\cf0 \strokec3 : \cf5 \strokec5 "**Operational** **Records**"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontColor"\cf0 \strokec3 : \cf5 \strokec5 "#ffffff"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontSize"\cf0 \strokec3 : \cf5 \strokec5 "custom"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "customFontSize"\cf0 \strokec3 : \cf6 \strokec6 40\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_Va1Up4mc"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.rectangle"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "strokeColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fillColor"\cf0 \strokec3 : \cf5 \strokec5 "transparent"\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_T5GYGQZK"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.markdown"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "markdown"\cf0 \strokec3 : \cf5 \strokec5 "**Sales** **by** **Categories**"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontSize"\cf0 \strokec3 : \cf5 \strokec5 "custom"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "customFontSize"\cf0 \strokec3 : \cf6 \strokec6 40\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_YdNNYsYg"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.rectangle"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "fillColor"\cf0 \strokec3 : \cf5 \strokec5 "#5a4575"\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_gIuE1ARv"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.markdown"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "markdown"\cf0 \strokec3 : \cf5 \strokec5 "**Sales** **and** **Profit**"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontColor"\cf0 \strokec3 : \cf5 \strokec5 "#ffffff"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "fontSize"\cf0 \strokec3 : \cf5 \strokec5 "custom"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "customFontSize"\cf0 \strokec3 : \cf6 \strokec6 40\cf0 \cb1 \strokec3 \
+\cb2             \}\cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "viz_lgi5Lkkl"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "splunk.scatter"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 "ds_11XBERGK"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Correlation between sales revenue and profit"\cf0 \cb1 \strokec3 \
+\cb2         \}\cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf4 \strokec4 "inputs"\cf0 \strokec3 : \{\cb1 \
+\cb2         \cf4 \strokec4 "input_global_trp"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "input.timerange"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "token"\cf0 \strokec3 : \cf5 \strokec5 "global_time"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "defaultValue"\cf0 \strokec3 : \cf5 \strokec5 "-24h@h,now"\cf0 \cb1 \strokec3 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Global Time Range"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "input_fhybiExa"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "items"\cf0 \strokec3 : [\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "All"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "*"\cf0 \cb1 \strokec3 \
+\cb2                     \},\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "West"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "West"\cf0 \cb1 \strokec3 \
+\cb2                     \},\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "NorthEast"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "Northeast"\cf0 \cb1 \strokec3 \
+\cb2                     \},\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "Midwest"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "Midwest"\cf0 \cb1 \strokec3 \
+\cb2                     \},\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "South"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "South"\cf0 \cb1 \strokec3 \
+\cb2                     \},\cb1 \
+\cb2                     \{\cb1 \
+\cb2                         \cf4 \strokec4 "label"\cf0 \strokec3 : \cf5 \strokec5 "SouthEast"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "value"\cf0 \strokec3 : \cf5 \strokec5 "Southeast"\cf0 \cb1 \strokec3 \
+\cb2                     \}\cb1 \
+\cb2                 ],\cb1 \
+\cb2                 \cf4 \strokec4 "token"\cf0 \strokec3 : \cf5 \strokec5 "region_token"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "defaultValue"\cf0 \strokec3 : [\cb1 \
+\cb2                     \cf5 \strokec5 "*"\cf0 \cb1 \strokec3 \
+\cb2                 ]\cb1 \
+\cb2             \},\cb1 \
+\cb2             \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Region"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "input.multiselect"\cf0 \cb1 \strokec3 \
+\cb2         \}\cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf4 \strokec4 "layout"\cf0 \strokec3 : \{\cb1 \
+\cb2         \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "absolute"\cf0 \strokec3 ,\cb1 \
+\cb2         \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "width"\cf0 \strokec3 : \cf6 \strokec6 1440\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "height"\cf0 \strokec3 : \cf6 \strokec6 3245\cf0 \strokec3 ,\cb1 \
+\cb2             \cf4 \strokec4 "display"\cf0 \strokec3 : \cf5 \strokec5 "auto"\cf0 \cb1 \strokec3 \
+\cb2         \},\cb1 \
+\cb2         \cf4 \strokec4 "structure"\cf0 \strokec3 : [\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_YdNNYsYg"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 -10\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 1340\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1450\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 1030\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_6vdcgCqs"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 30\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 1420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1380\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 430\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_OMVVGbJg"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 0\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 -90\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1440\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 690\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_Iy0gRNrO"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 960\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 310\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 230\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_fTWlcylv"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 520\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 310\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 230\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_rXx312X7"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 960\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 100\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 200\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_sQU7AIq2"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 100\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 440\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 440\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_1fUvT1GW"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 520\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 100\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 200\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_hZh6dNWV"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 30\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 420\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 50\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_Va1Up4mc"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 -10\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 600\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1450\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 750\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_WtHIMJ0i"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 990\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1320\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 330\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_RPiHUBZ1"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 680\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 650\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 300\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_wX6xgoAx"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 740\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 680\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 640\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 300\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_T5GYGQZK"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 620\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 970\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 70\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_gIuE1ARv"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 50\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 1360\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 630\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 60\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \},\cb1 \
+\cb2             \{\cb1 \
+\cb2                 \cf4 \strokec4 "item"\cf0 \strokec3 : \cf5 \strokec5 "viz_lgi5Lkkl"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "type"\cf0 \strokec3 : \cf5 \strokec5 "block"\cf0 \strokec3 ,\cb1 \
+\cb2                 \cf4 \strokec4 "position"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "x"\cf0 \strokec3 : \cf6 \strokec6 30\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "y"\cf0 \strokec3 : \cf6 \strokec6 1870\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "w"\cf0 \strokec3 : \cf6 \strokec6 1380\cf0 \strokec3 ,\cb1 \
+\cb2                     \cf4 \strokec4 "h"\cf0 \strokec3 : \cf6 \strokec6 390\cf0 \cb1 \strokec3 \
+\cb2                 \}\cb1 \
+\cb2             \}\cb1 \
+\cb2         ],\cb1 \
+\cb2         \cf4 \strokec4 "globalInputs"\cf0 \strokec3 : [\cb1 \
+\cb2             \cf5 \strokec5 "input_global_trp"\cf0 \strokec3 ,\cb1 \
+\cb2             \cf5 \strokec5 "input_fhybiExa"\cf0 \cb1 \strokec3 \
+\cb2         ]\cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf4 \strokec4 "title"\cf0 \strokec3 : \cf5 \strokec5 "Adidas US Sales"\cf0 \strokec3 ,\cb1 \
+\cb2     \cf4 \strokec4 "description"\cf0 \strokec3 : \cf5 \strokec5 "KIT102 Data Analytic Assignment"\cf0 \strokec3 ,\cb1 \
+\cb2     \cf4 \strokec4 "defaults"\cf0 \strokec3 : \{\cb1 \
+\cb2         \cf4 \strokec4 "dataSources"\cf0 \strokec3 : \{\cb1 \
+\cb2             \cf4 \strokec4 "ds.search"\cf0 \strokec3 : \{\cb1 \
+\cb2                 \cf4 \strokec4 "options"\cf0 \strokec3 : \{\cb1 \
+\cb2                     \cf4 \strokec4 "queryParameters"\cf0 \strokec3 : \{\cb1 \
+\cb2                         \cf4 \strokec4 "latest"\cf0 \strokec3 : \cf5 \strokec5 "$global_time.latest$"\cf0 \strokec3 ,\cb1 \
+\cb2                         \cf4 \strokec4 "earliest"\cf0 \strokec3 : \cf5 \strokec5 "$global_time.earliest$"\cf0 \cb1 \strokec3 \
+\cb2                     \}\cb1 \
+\cb2                 \}\cb1 \
+\cb2             \}\cb1 \
+\cb2         \}\cb1 \
+\cb2     \}\cb1 \
+\cb2 \}\cb1 \
+}
